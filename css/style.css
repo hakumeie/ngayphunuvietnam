@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'MTO Chancery';
+    src: url('../assets/fonts/MTO-Chancery.ttf') format('truetype');
+    font-display: swap;
+}
+
 button:focus {
     outline: none;
 }
@@ -131,6 +137,8 @@ body.active {
     line-height: 1.5;
     word-wrap: break-word;
     overflow-y: auto;
+    font-family: 'MTO Chancery', cursive;
+    font-size: 1.15rem;
 }
 
 .thiep-mat-truoc {

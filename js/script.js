@@ -1,7 +1,7 @@
 const loichuc = 'Chưa\nbiết\nnên\nviết\ngì\nvào\nđây';
 
 const petal_imgs = [
-    'assets/img/—Pngtree—peach-blossom_5405214.png'
+    'assets/img/Pngtree-peach-blossom_5405214.png'
 ];
 
 let typing_timer = null;
@@ -60,6 +60,7 @@ document.getElementById('start-btn').addEventListener('click', () => {
 // Đợi trang, font và ảnh hoa tải xong mới cho bấm nút Start
 Promise.all([
     LoadImages(petal_imgs),
+    document.fonts.load("1rem 'MTO Chancery'"),
     document.fonts.ready,
     new Promise(resolve => {
         if (document.readyState === 'complete') resolve();
