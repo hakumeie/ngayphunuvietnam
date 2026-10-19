@@ -1,4 +1,5 @@
-const loichuc = 'Chưa\nbiết\nnên\nviết\ngì\nvào\nđây';
+const loichuc = `Nhân ngày Phụ nữ Việt Nam
+Chúc cho các nàng ngày càng xinh hơn `;
 
 const petal_imgs = [
     'assets/img/Pngtree-peach-blossom_5405214.png'
