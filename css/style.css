@@ -120,7 +120,7 @@ body.active {
     height: 150px;
     top: 45px;
     left: 15px;
-    padding: 14px 16px;
+    padding: 14px 8px 8px;
     text-align: center;
     background-color: #fffaf0;
     border-radius: 6px;
